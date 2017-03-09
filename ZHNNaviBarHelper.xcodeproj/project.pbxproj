@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDB6E17A1E7121160066ECCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6E1791E7121160066ECCB /* main.m */; };
+		CDB6E17D1E7121160066ECCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6E17C1E7121160066ECCB /* AppDelegate.m */; };
+		CDB6E1801E7121160066ECCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6E17F1E7121160066ECCB /* ViewController.m */; };
+		CDB6E1831E7121160066ECCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB6E1811E7121160066ECCB /* Main.storyboard */; };
+		CDB6E1851E7121160066ECCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB6E1841E7121160066ECCB /* Assets.xcassets */; };
+		CDB6E1881E7121160066ECCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB6E1861E7121160066ECCB /* LaunchScreen.storyboard */; };
+		CDB6E1931E7121160066ECCB /* ZHNNaviBarHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6E1921E7121160066ECCB /* ZHNNaviBarHelperTests.m */; };
+		CDB6E19E1E7121160066ECCB /* ZHNNaviBarHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6E19D1E7121160066ECCB /* ZHNNaviBarHelperUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDB6E18F1E7121160066ECCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB6E16D1E7121160066ECCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB6E1741E7121160066ECCB;
+			remoteInfo = ZHNNaviBarHelper;
+		};
+		CDB6E19A1E7121160066ECCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB6E16D1E7121160066ECCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB6E1741E7121160066ECCB;
+			remoteInfo = ZHNNaviBarHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDB6E1751E7121160066ECCB /* ZHNNaviBarHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHNNaviBarHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB6E1791E7121160066ECCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDB6E17B1E7121160066ECCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDB6E17C1E7121160066ECCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDB6E17E1E7121160066ECCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDB6E17F1E7121160066ECCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDB6E1821E7121160066ECCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDB6E1841E7121160066ECCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDB6E1871E7121160066ECCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDB6E1891E7121160066ECCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB6E18E1E7121160066ECCB /* ZHNNaviBarHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNNaviBarHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB6E1921E7121160066ECCB /* ZHNNaviBarHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNNaviBarHelperTests.m; sourceTree = "<group>"; };
+		CDB6E1941E7121160066ECCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB6E1991E7121160066ECCB /* ZHNNaviBarHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNNaviBarHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB6E19D1E7121160066ECCB /* ZHNNaviBarHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNNaviBarHelperUITests.m; sourceTree = "<group>"; };
+		CDB6E19F1E7121160066ECCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDB6E1721E7121160066ECCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB6E18B1E7121160066ECCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB6E1961E7121160066ECCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDB6E16C1E7121160066ECCB = {
+			isa = PBXGroup;
+			children = (
+				CDB6E1771E7121160066ECCB /* ZHNNaviBarHelper */,
+				CDB6E1911E7121160066ECCB /* ZHNNaviBarHelperTests */,
+				CDB6E19C1E7121160066ECCB /* ZHNNaviBarHelperUITests */,
+				CDB6E1761E7121160066ECCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDB6E1761E7121160066ECCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6E1751E7121160066ECCB /* ZHNNaviBarHelper.app */,
+				CDB6E18E1E7121160066ECCB /* ZHNNaviBarHelperTests.xctest */,
+				CDB6E1991E7121160066ECCB /* ZHNNaviBarHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB6E1771E7121160066ECCB /* ZHNNaviBarHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6E17B1E7121160066ECCB /* AppDelegate.h */,
+				CDB6E17C1E7121160066ECCB /* AppDelegate.m */,
+				CDB6E17E1E7121160066ECCB /* ViewController.h */,
+				CDB6E17F1E7121160066ECCB /* ViewController.m */,
+				CDB6E1811E7121160066ECCB /* Main.storyboard */,
+				CDB6E1841E7121160066ECCB /* Assets.xcassets */,
+				CDB6E1861E7121160066ECCB /* LaunchScreen.storyboard */,
+				CDB6E1891E7121160066ECCB /* Info.plist */,
+				CDB6E1781E7121160066ECCB /* Supporting Files */,
+			);
+			path = ZHNNaviBarHelper;
+			sourceTree = "<group>";
+		};
+		CDB6E1781E7121160066ECCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6E1791E7121160066ECCB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDB6E1911E7121160066ECCB /* ZHNNaviBarHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6E1921E7121160066ECCB /* ZHNNaviBarHelperTests.m */,
+				CDB6E1941E7121160066ECCB /* Info.plist */,
+			);
+			path = ZHNNaviBarHelperTests;
+			sourceTree = "<group>";
+		};
+		CDB6E19C1E7121160066ECCB /* ZHNNaviBarHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6E19D1E7121160066ECCB /* ZHNNaviBarHelperUITests.m */,
+				CDB6E19F1E7121160066ECCB /* Info.plist */,
+			);
+			path = ZHNNaviBarHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDB6E1741E7121160066ECCB /* ZHNNaviBarHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB6E1A21E7121160066ECCB /* Build configuration list for PBXNativeTarget "ZHNNaviBarHelper" */;
+			buildPhases = (
+				CDB6E1711E7121160066ECCB /* Sources */,
+				CDB6E1721E7121160066ECCB /* Frameworks */,
+				CDB6E1731E7121160066ECCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHNNaviBarHelper;
+			productName = ZHNNaviBarHelper;
+			productReference = CDB6E1751E7121160066ECCB /* ZHNNaviBarHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDB6E18D1E7121160066ECCB /* ZHNNaviBarHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB6E1A51E7121160066ECCB /* Build configuration list for PBXNativeTarget "ZHNNaviBarHelperTests" */;
+			buildPhases = (
+				CDB6E18A1E7121160066ECCB /* Sources */,
+				CDB6E18B1E7121160066ECCB /* Frameworks */,
+				CDB6E18C1E7121160066ECCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB6E1901E7121160066ECCB /* PBXTargetDependency */,
+			);
+			name = ZHNNaviBarHelperTests;
+			productName = ZHNNaviBarHelperTests;
+			productReference = CDB6E18E1E7121160066ECCB /* ZHNNaviBarHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDB6E1981E7121160066ECCB /* ZHNNaviBarHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB6E1A81E7121160066ECCB /* Build configuration list for PBXNativeTarget "ZHNNaviBarHelperUITests" */;
+			buildPhases = (
+				CDB6E1951E7121160066ECCB /* Sources */,
+				CDB6E1961E7121160066ECCB /* Frameworks */,
+				CDB6E1971E7121160066ECCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB6E19B1E7121160066ECCB /* PBXTargetDependency */,
+			);
+			name = ZHNNaviBarHelperUITests;
+			productName = ZHNNaviBarHelperUITests;
+			productReference = CDB6E1991E7121160066ECCB /* ZHNNaviBarHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDB6E16D1E7121160066ECCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhn;
+				TargetAttributes = {
+					CDB6E1741E7121160066ECCB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CDB6E18D1E7121160066ECCB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDB6E1741E7121160066ECCB;
+					};
+					CDB6E1981E7121160066ECCB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDB6E1741E7121160066ECCB;
+					};
+				};
+			};
+			buildConfigurationList = CDB6E1701E7121160066ECCB /* Build configuration list for PBXProject "ZHNNaviBarHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDB6E16C1E7121160066ECCB;
+			productRefGroup = CDB6E1761E7121160066ECCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDB6E1741E7121160066ECCB /* ZHNNaviBarHelper */,
+				CDB6E18D1E7121160066ECCB /* ZHNNaviBarHelperTests */,
+				CDB6E1981E7121160066ECCB /* ZHNNaviBarHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDB6E1731E7121160066ECCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB6E1881E7121160066ECCB /* LaunchScreen.storyboard in Resources */,
+				CDB6E1851E7121160066ECCB /* Assets.xcassets in Resources */,
+				CDB6E1831E7121160066ECCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB6E18C1E7121160066ECCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB6E1971E7121160066ECCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDB6E1711E7121160066ECCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB6E1801E7121160066ECCB /* ViewController.m in Sources */,
+				CDB6E17D1E7121160066ECCB /* AppDelegate.m in Sources */,
+				CDB6E17A1E7121160066ECCB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB6E18A1E7121160066ECCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB6E1931E7121160066ECCB /* ZHNNaviBarHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB6E1951E7121160066ECCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB6E19E1E7121160066ECCB /* ZHNNaviBarHelperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDB6E1901E7121160066ECCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB6E1741E7121160066ECCB /* ZHNNaviBarHelper */;
+			targetProxy = CDB6E18F1E7121160066ECCB /* PBXContainerItemProxy */;
+		};
+		CDB6E19B1E7121160066ECCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB6E1741E7121160066ECCB /* ZHNNaviBarHelper */;
+			targetProxy = CDB6E19A1E7121160066ECCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDB6E1811E7121160066ECCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB6E1821E7121160066ECCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDB6E1861E7121160066ECCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB6E1871E7121160066ECCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDB6E1A01E7121160066ECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDB6E1A11E7121160066ECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDB6E1A31E7121160066ECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHNNaviBarHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNNaviBarHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDB6E1A41E7121160066ECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHNNaviBarHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNNaviBarHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDB6E1A61E7121160066ECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHNNaviBarHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNNaviBarHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHNNaviBarHelper.app/ZHNNaviBarHelper";
+			};
+			name = Debug;
+		};
+		CDB6E1A71E7121160066ECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHNNaviBarHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNNaviBarHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHNNaviBarHelper.app/ZHNNaviBarHelper";
+			};
+			name = Release;
+		};
+		CDB6E1A91E7121160066ECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHNNaviBarHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNNaviBarHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHNNaviBarHelper;
+			};
+			name = Debug;
+		};
+		CDB6E1AA1E7121160066ECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHNNaviBarHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNNaviBarHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHNNaviBarHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDB6E1701E7121160066ECCB /* Build configuration list for PBXProject "ZHNNaviBarHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB6E1A01E7121160066ECCB /* Debug */,
+				CDB6E1A11E7121160066ECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB6E1A21E7121160066ECCB /* Build configuration list for PBXNativeTarget "ZHNNaviBarHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB6E1A31E7121160066ECCB /* Debug */,
+				CDB6E1A41E7121160066ECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDB6E1A51E7121160066ECCB /* Build configuration list for PBXNativeTarget "ZHNNaviBarHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB6E1A61E7121160066ECCB /* Debug */,
+				CDB6E1A71E7121160066ECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDB6E1A81E7121160066ECCB /* Build configuration list for PBXNativeTarget "ZHNNaviBarHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB6E1A91E7121160066ECCB /* Debug */,
+				CDB6E1AA1E7121160066ECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDB6E16D1E7121160066ECCB /* Project object */;
+}
