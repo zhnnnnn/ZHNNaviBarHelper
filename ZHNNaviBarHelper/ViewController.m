@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "testViewController.h"
 
 @interface ViewController ()
 
@@ -16,9 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear: animated];
+}
+
+
+- (IBAction)pushViewController:(id)sender {
+    testViewController *testVC = [[testViewController alloc]init];
+    [self.navigationController pushViewController:testVC animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

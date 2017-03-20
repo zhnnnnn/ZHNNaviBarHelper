@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD34615F1E716E1C0009EA0D /* test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34615E1E716E1C0009EA0D /* test2ViewController.m */; };
 		CDB6E17A1E7121160066ECCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6E1791E7121160066ECCB /* main.m */; };
 		CDB6E17D1E7121160066ECCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6E17C1E7121160066ECCB /* AppDelegate.m */; };
 		CDB6E1801E7121160066ECCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6E17F1E7121160066ECCB /* ViewController.m */; };
@@ -15,6 +16,10 @@
 		CDB6E1881E7121160066ECCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB6E1861E7121160066ECCB /* LaunchScreen.storyboard */; };
 		CDB6E1931E7121160066ECCB /* ZHNNaviBarHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6E1921E7121160066ECCB /* ZHNNaviBarHelperTests.m */; };
 		CDB6E19E1E7121160066ECCB /* ZHNNaviBarHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6E19D1E7121160066ECCB /* ZHNNaviBarHelperUITests.m */; };
+		CDB6E1B61E71352E0066ECCB /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6E1B51E71352E0066ECCB /* testViewController.m */; };
+		CDF7D4991E73CB0A004F19B5 /* customNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF7D4981E73CB0A004F19B5 /* customNaviViewController.m */; };
+		CDF7D4A31E73D3A4004F19B5 /* UINavigationController+ZHNNaviBarTransparent.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF7D49E1E73D3A4004F19B5 /* UINavigationController+ZHNNaviBarTransparent.m */; };
+		CDF7D4A41E73D3A4004F19B5 /* UIViewController+ZHNNaviBarTransparent.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF7D4A01E73D3A4004F19B5 /* UIViewController+ZHNNaviBarTransparent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD34615D1E716E1C0009EA0D /* test2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test2ViewController.h; sourceTree = "<group>"; };
+		CD34615E1E716E1C0009EA0D /* test2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test2ViewController.m; sourceTree = "<group>"; };
 		CDB6E1751E7121160066ECCB /* ZHNNaviBarHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHNNaviBarHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB6E1791E7121160066ECCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDB6E17B1E7121160066ECCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,15 @@
 		CDB6E1991E7121160066ECCB /* ZHNNaviBarHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNNaviBarHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB6E19D1E7121160066ECCB /* ZHNNaviBarHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNNaviBarHelperUITests.m; sourceTree = "<group>"; };
 		CDB6E19F1E7121160066ECCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB6E1B41E71352E0066ECCB /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testViewController.h; path = Assets.xcassets/testViewController.h; sourceTree = "<group>"; };
+		CDB6E1B51E71352E0066ECCB /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testViewController.m; path = Assets.xcassets/testViewController.m; sourceTree = "<group>"; };
+		CDF7D4971E73CB0A004F19B5 /* customNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customNaviViewController.h; sourceTree = "<group>"; };
+		CDF7D4981E73CB0A004F19B5 /* customNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customNaviViewController.m; sourceTree = "<group>"; };
+		CDF7D49D1E73D3A4004F19B5 /* UINavigationController+ZHNNaviBarTransparent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZHNNaviBarTransparent.h"; sourceTree = "<group>"; };
+		CDF7D49E1E73D3A4004F19B5 /* UINavigationController+ZHNNaviBarTransparent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZHNNaviBarTransparent.m"; sourceTree = "<group>"; };
+		CDF7D49F1E73D3A4004F19B5 /* UIViewController+ZHNNaviBarTransparent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZHNNaviBarTransparent.h"; sourceTree = "<group>"; };
+		CDF7D4A01E73D3A4004F19B5 /* UIViewController+ZHNNaviBarTransparent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZHNNaviBarTransparent.m"; sourceTree = "<group>"; };
+		CDF7D4A61E73D3FB004F19B5 /* ZHNNaviBarHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNNaviBarHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +117,17 @@
 		CDB6E1771E7121160066ECCB /* ZHNNaviBarHelper */ = {
 			isa = PBXGroup;
 			children = (
+				CDF7D49C1E73D3A4004F19B5 /* ZHNNaviBarHelper */,
 				CDB6E17B1E7121160066ECCB /* AppDelegate.h */,
 				CDB6E17C1E7121160066ECCB /* AppDelegate.m */,
+				CDF7D4971E73CB0A004F19B5 /* customNaviViewController.h */,
+				CDF7D4981E73CB0A004F19B5 /* customNaviViewController.m */,
 				CDB6E17E1E7121160066ECCB /* ViewController.h */,
 				CDB6E17F1E7121160066ECCB /* ViewController.m */,
+				CDB6E1B41E71352E0066ECCB /* testViewController.h */,
+				CDB6E1B51E71352E0066ECCB /* testViewController.m */,
+				CD34615D1E716E1C0009EA0D /* test2ViewController.h */,
+				CD34615E1E716E1C0009EA0D /* test2ViewController.m */,
 				CDB6E1811E7121160066ECCB /* Main.storyboard */,
 				CDB6E1841E7121160066ECCB /* Assets.xcassets */,
 				CDB6E1861E7121160066ECCB /* LaunchScreen.storyboard */,
@@ -138,6 +161,18 @@
 				CDB6E19F1E7121160066ECCB /* Info.plist */,
 			);
 			path = ZHNNaviBarHelperUITests;
+			sourceTree = "<group>";
+		};
+		CDF7D49C1E73D3A4004F19B5 /* ZHNNaviBarHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CDF7D4A61E73D3FB004F19B5 /* ZHNNaviBarHelper.h */,
+				CDF7D49D1E73D3A4004F19B5 /* UINavigationController+ZHNNaviBarTransparent.h */,
+				CDF7D49E1E73D3A4004F19B5 /* UINavigationController+ZHNNaviBarTransparent.m */,
+				CDF7D49F1E73D3A4004F19B5 /* UIViewController+ZHNNaviBarTransparent.h */,
+				CDF7D4A01E73D3A4004F19B5 /* UIViewController+ZHNNaviBarTransparent.m */,
+			);
+			path = ZHNNaviBarHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF7D4A41E73D3A4004F19B5 /* UIViewController+ZHNNaviBarTransparent.m in Sources */,
+				CD34615F1E716E1C0009EA0D /* test2ViewController.m in Sources */,
 				CDB6E1801E7121160066ECCB /* ViewController.m in Sources */,
+				CDF7D4A31E73D3A4004F19B5 /* UINavigationController+ZHNNaviBarTransparent.m in Sources */,
 				CDB6E17D1E7121160066ECCB /* AppDelegate.m in Sources */,
 				CDB6E17A1E7121160066ECCB /* main.m in Sources */,
+				CDB6E1B61E71352E0066ECCB /* testViewController.m in Sources */,
+				CDF7D4991E73CB0A004F19B5 /* customNaviViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZHNNaviBarHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNNaviBarHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZHNNaviBarHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNNaviBarHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +549,7 @@
 				CDB6E1A41E7121160066ECCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDB6E1A51E7121160066ECCB /* Build configuration list for PBXNativeTarget "ZHNNaviBarHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +558,7 @@
 				CDB6E1A71E7121160066ECCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDB6E1A81E7121160066ECCB /* Build configuration list for PBXNativeTarget "ZHNNaviBarHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +567,7 @@
 				CDB6E1AA1E7121160066ECCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
